@@ -95,24 +95,24 @@ When the lanuch.json file is created, in the ***Run and Debug*** tab, click on *
   "version": "2.0.0",
   "tasks": [
     {
-			"type": "cppbuild",
-			"label": "C/C++: gcc.exe build active file",
-			"command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
-			"args": [
-				"-fdiagnostics-color=always",
-				"-g",
-				"${file}",
-				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
-			],
-			"options": {
-				"cwd": "C:\\msys64\\ucrt64\\bin"
-			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": "build",
-			"detail": "compiler: C:\\msys64\\ucrt64\\bin\\gcc.exe"
+      "type": "cppbuild",
+      "label": "C/C++: gcc.exe build active file",
+      "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "C:\\msys64\\ucrt64\\bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build",
+      "detail": "compiler: C:\\msys64\\ucrt64\\bin\\gcc.exe"
 		}
   ]
 }
